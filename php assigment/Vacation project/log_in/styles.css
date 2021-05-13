@@ -1,0 +1,33 @@
+body{
+  background-color: grey;
+}
+
+#text{
+  height: 25px;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 0 auto;
+  border: solid thin #aaa;
+  width: 100%;
+  font-size: 16px;
+}
+
+#button{
+  padding: 10px;
+  width: 100px;
+  color: white;
+  background-color: lightblue;
+  border: none;
+}
+
+#button:hover{
+  opacity: 80%;
+}
+
+#box{
+  background-color: #52807B;
+  margin: auto;
+  width: 300px;
+  padding: 20px;
+}
+

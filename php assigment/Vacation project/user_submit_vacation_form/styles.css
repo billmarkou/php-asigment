@@ -1,0 +1,90 @@
+body{
+  background-color: grey;
+}
+
+header{
+  background-color: #52807B; 
+  height: 120px;
+}
+
+h1{
+  margin: 0 auto 20px;
+  text-align: center;
+  color: #f2f2f2;
+  padding-top: 20px;
+}
+
+header div{
+  display: flex;
+  justify-content: center;
+}
+
+header a{
+  height: 25px;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4%;
+  margin: 0 10px 0 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+header a:hover{
+  opacity: 50%;
+}
+
+#vacation_form {
+  border-radius: 5px;
+  background-color: #67a19b;
+  padding: 20px;
+  height: 300px;
+  width: 550px;
+  margin: 15px auto;
+}
+
+#box{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+label{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+}
+
+input[type=date], select {
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+button {
+  width: 100%;
+  background-color: #52807B;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+textarea{
+  width: 330px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #4d7973;
+}
